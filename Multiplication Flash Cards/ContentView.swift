@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var isAnswerCorrect = false
     @State private var numberOfQuestions = ["5", "10", "15", "20", "All"]
     @State private var numberOfQuestionsPlace = "5"
+    @State private var score = 0
     
     var body: some View {
         VStack{
